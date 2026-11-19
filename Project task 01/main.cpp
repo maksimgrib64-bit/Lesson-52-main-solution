@@ -1,8 +1,8 @@
 #include <iostream>
 #include "logic.h"
 using namespace std;
+int matrix[MAX_SIZE][MAX_SIZE];
 int main() {
-	int matrix[MAX_SIZE][MAX_SIZE];
 	int size;
 
 	cout << "Input matrix size: ";
